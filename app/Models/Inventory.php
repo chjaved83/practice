@@ -14,4 +14,6 @@ class Inventory extends Model
         'description',
         'price'
     ];
+    protected $table = 'inventory';
+
 }
